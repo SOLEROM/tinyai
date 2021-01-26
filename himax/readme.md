@@ -2,13 +2,13 @@
 
 ## 
 * read the [hwSpecs](hwSpecs.md)
+* get to know the [evb board](evbSW/readme.md)
 
-* see [palyExamples](playExamples.md)
 
+* see [playExamples](playExamples.md)
 
 ## work env 
-
-* ref git
+* refs git
 
 ```
 // clone for local referencr (git ignored in this git) //
