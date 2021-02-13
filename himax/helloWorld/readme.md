@@ -14,3 +14,6 @@ make -f tensorflow/lite/micro/tools/make/Makefile generate_hello_world_make_proj
 
 
 ```
+
+cd /tensor/tensorflow/tensorflow/lite/micro/tools/make/gen/himax_we1_evb_arc_default/prj/hello_world/make
+make app
