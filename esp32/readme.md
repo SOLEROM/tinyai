@@ -21,3 +21,8 @@
 * esp32-S
   * 520 KB SRAM plus 4 MB PSRAM
 * camera : OV2640
+
+
+# build ENV
+* [1 - based on arduino ide](buildEnv1/readme.md)
+* [2 - based on espressive ide](buildEnv2/readme.md)
