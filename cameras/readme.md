@@ -29,6 +29,7 @@ LowPower
 
 toys
 (3)ov2640     15mV/s
+            125-140 mW
 (4)OV7670
 
 shortFocus

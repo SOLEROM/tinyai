@@ -1,6 +1,8 @@
 # SparkFun Edge 
 
+# mcu
 * https://www.sparkfun.com/products/15170
+* https://learn.sparkfun.com/tutorials/sparkfun-edge-hookup-guide/all
 
 # sensors:
 
