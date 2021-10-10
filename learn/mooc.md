@@ -13,3 +13,4 @@
 
 * https://www.fast.ai/
 
+* https://embeddedvisionsummit.com/trainings/
