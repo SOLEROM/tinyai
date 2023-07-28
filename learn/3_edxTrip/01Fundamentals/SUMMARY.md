@@ -12,6 +12,8 @@
   * [classification](blocks/classification.md)
   * [validation](blocks/validation.md)
 
+
+
 * [scenarios](scenarios/readme.md)
   * [recurrent](scenarios/recurrentLayers.md)
   * [Long Short Term Memory](scenarios/LongShortTermMemory.md)
