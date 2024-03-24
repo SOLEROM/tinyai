@@ -1,0 +1,17 @@
+sudo apt-get install -y binfmt-support
+sudo apt-get install qemu-user-static
+
+source build/setup.sh
+
+
+IS_EXTERNAL=true m
+    for builder mirror site Use http://deb.debian.org/debian
+
+HEADLESS_BUILD=true  FETCH_PACKAGES=true IS_EXTERNAL=true m
+
+http://ftp.us.debian.org/debian/pool/main/d/debootstrap/debootstrap_1.0.89_all.deb
+debootstrap_1.0.133_all.deb
+https://cloudfront.debian.net/cdimage/snapshot/Debian/pool/main/d/debootstrap/debootstrap_1.0.89_all.deb
+
+docker run --rm --privileged --tty -i -v /dev\:/dev -v /data/vlad/tinyai/coral/mendel/mendel_repo_build\:/rootdir  -e "FETCH_PACKAGES=true" -e "HEADLESS_BUILD=true" -e "IS_JENKINS=" -e "IS_EXTERNAL=true" -e "RELEASE_NAME=unstable" -e "http_proxy=" -e "USERSPACE_ARCH=arm64" -e "QEMU_ARCH=aarch64" -w /rootdir aiy-board-builder  /bin/bash -c 'ls /'
+docker run --rm --privileged --tty -i -v /data/vlad/tinyai/coral/mendel/mendel_repo_build\:/rootdir  -w /rootdir aiy-board-builder  /bin/bash -c 'ls /'

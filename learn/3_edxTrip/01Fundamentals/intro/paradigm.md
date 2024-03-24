@@ -1,3 +1,0 @@
-# The Machine Learning Paradigm
-
-
