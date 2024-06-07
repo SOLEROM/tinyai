@@ -1,11 +1,29 @@
 # max7800
 
-* home https://www.maximintegrated.com/en/products/microcontrollers/MAX78000.html#online-ds
-* git https://github.com/MaximIntegratedAI
-* getting start https://www.maximintegrated.com/en/design/videos.html/vd_1_rtp4xipe#popupmodal
-* Developing Power-optimized Applications on the MAX78000  https://www.maximintegrated.com/en/design/technical-documents/app-notes/7/7417.html
+* spec https://www.analog.com/en/products/max78000.html#online-ds
+
+* home gits ; main  =  https://github.com/MaximIntegratedAI
+    * https://github.com/MaximIntegratedAI/MaximAI_Documentation
+    * https://github.com/analogdevicesinc/msdk
+    * https://github.com/MaximIntegratedAI/ai8x-training
+    * https://github.com/MaximIntegratedAI/ai8x-synthesis
+    * https://github.com/analogdevicesinc/MAX78xxx-RefDes
 
 
-## examples
+* [workflow-guide](https://github.com/MaximIntegratedAI/MaximAI_Documentation/blob/main/Guides/MAX78000_Workflow_Guide.md#max78000-workflow-guide)
+
+![](https://github.com/MaximIntegratedAI/ai8x-training/raw/develop/docs/DevelopmentFlow.png)
+
+![](https://github.com/MaximGorkem/ai8x-test-training/blob/develop/docs/DevelopmentFlow.png?raw=true)
+
+# 
+
+## ai8x-synthesis 
+* (“izer”) tool, which converts a trained model into C code that can be compiled and flashed onto the MAX78000.
+
+
+
+
+## Application Notes
 * Keywords Spotting Using the MAX78000  https://www.maximintegrated.com/en/design/technical-documents/app-notes/7/7359.html
 
