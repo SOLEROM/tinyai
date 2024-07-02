@@ -1,0 +1,16 @@
+
+:maxCNN/ai8x-training ‹main*›$ rm datasets/vggface2_facedet.py
+
+******************************************
+Please follow the instructions below:
+Download the dataset to the 'data' folder by visiting this link: 'https://www.kaggle.com/datasets/salader/dogs-vs-cats'
+If you do not have a Kaggle account, sign up first.
+Unzip the downloaded file and find 'test' and 'train' folders and copy them into 'data/cats_vs_dogs'. 
+Make sure that images are in the following directory structure:
+  'data/cats_vs_dogs/train/cats'
+  'data/cats_vs_dogs/train/dogs'
+  'data/cats_vs_dogs/test/cats'
+  'data/cats_vs_dogs/test/dogs'
+Re-run the script. The script will create an 'augmented' folder 
+with all the original and augmented images. Remove this folder if you want to change the augmentation and to recreate the dataset.
+******************************************
