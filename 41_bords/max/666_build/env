@@ -1,0 +1,30 @@
+# MSDK location
+MAXIM_PATH=/data/tinyai/maxCNN/sdk/  # Change me!
+export MAXIM_PATH
+
+# Arm GCC -- adjust version number
+ARMGCC_DIR=$MAXIM_PATH/Tools/GNUTools/10.3
+echo $PATH | grep -q -s "$ARMGCC_DIR/bin"
+if [ $? -eq 1 ] ; then
+    PATH=$PATH:"$ARMGCC_DIR/bin"
+    export PATH
+    export ARMGCC_DIR
+fi
+
+# RISC-V GCC -- adjust version number
+RISCVGCC_DIR=$MAXIM_PATH/Tools/xPack/riscv-none-embed-gcc/10.2.0-1.2
+echo $PATH | grep -q -s "$RISCVGCC_DIR/bin"
+if [ $? -eq 1 ] ; then
+    PATH=$PATH:"$RISCVGCC_DIR/bin"
+    export PATH
+    export RISCVGCC_DIR
+fi
+
+# OpenOCD
+OPENOCD_DIR=$MAXIM_PATH/Tools/OpenOCD
+echo $PATH | grep -q -s "$OPENOCD_DIR"
+if [ $? -eq 1 ] ; then
+    PATH=$PATH:$OPENOCD_DIR
+    export PATH
+    export OPENOCD_DIR
+fi

@@ -1,3 +1,0 @@
-# pytorch
-
-* https://pytorch.org/
