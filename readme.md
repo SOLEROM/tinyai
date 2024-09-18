@@ -45,6 +45,7 @@ My tiny ai discover hub collection ; read ...learn... sw play... hw intro...proj
 * [rpi](./31_vendors/rpi/readme.md)
 * [sparkfun](./31_vendors/sparkFunEdge/readme.md)
 * [stm](./31_vendors/stm/readme.md)
+* [ambrella](./31_vendors/amberlla/readme.md)
 
 ## AI-makerKits
 * [list](./32_makerKits/readme.md)
