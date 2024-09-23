@@ -18,4 +18,7 @@ Overall, the Ethos-U55 provides significant **performance and efficiency improve
 
 ## board:
 
-Alif Semiconductor Ensemble and Crescendo Families: These microcontrollers combine the Cortex-M55 with the Ethos-U55 to offer significant improvements in performance and energy efficiency for AI/ML workloads. For example, the Alif E7 development kit integrates this combination, providing high performance for tasks like object classification and continuous monitoring. It can deliver up to a 76x improvement in power efficiency over using the Cortex-M55 alone​(
+Alif Semiconductor Ensemble and Crescendo Families: These microcontrollers combine the Cortex-M55 with the Ethos-U55 to offer significant improvements in performance and energy efficiency for AI/ML workloads. For example, the Alif E7 development kit integrates this combination, providing high performance for tasks like object classification and continuous monitoring. It can deliver up to a 76x improvement in power efficiency over using the Cortex-M55 alone​
+
+
+![alt text](image.png)
