@@ -33,6 +33,26 @@ Where:
 
 
 
+
+
+### 4. **AI Capability Index (ACI)**.
+
+
+To integrate frame rate (FPS) into the AI Capability Index, we can define a new metric:
+
+$$
+\text{ACI}_{\text{FPS}} = \frac{\text{FPS} \times \text{TOPS/W} \times \text{Utilization Factor}}{1 + \left( \frac{\text{Power Consumption}}{\text{Max Power Capacity}} \right)}
+$$
+
+Where:
+- **FPS**: Frames per second the module can achieve for a specific model.
+- **TOPS/W**: Represents power efficiency.
+- **Utilization Factor**: Represents how much of the computational capacity is being utilized.
+- **Power Consumption**: Actual power consumption of the module during operation.
+- **Max Power Capacity**: Maximum power the module can handle safely.
+
+
+
 ## example of Power Bank calc
 
    The capacity of a power bank is usually given in milliampere-hours (mAh) and the voltage it provides (typically 5V for USB output). 
