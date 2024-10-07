@@ -14,13 +14,22 @@
 * for custom Model use the Dataflow Compiler for optimization and conversion 
 * build realtime applications using HailoRT.
 
-## 
+## topics
+
+### hw
+* [m2](./m2modules/readme.md)
+* [rpi](./rpiHat/readme.md)
+
+
+### host
+
+* [dev-env](./devEnv/readme.md)
 
 * [startkit](./startKit/readme.md)
     * [suite](./startKit/suite.md)
         * [HailoRT](./startKit/HailoRT.md)
         * [Dataflow Compiler]
-        * TAPPAS
+        * [TAPPAS](./tappas/readme.md)
 
 
 * [zoo](./zoo/readme.md)
