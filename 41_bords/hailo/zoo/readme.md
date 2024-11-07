@@ -14,6 +14,6 @@
 * Compile: run the Hailo compiler to generate the Hailo Executable Format file (HEF) which can be executed on the Hailo hardware.
 * Evaluate: infer the model using the Hailo Emulator or the Hailo hardware and produce the model accuracy.
 
-high-levelviewofthemodel-zooevaluationproces
+high-level view of the model-zoo evaluation process
 
 ![alt text](image.png)

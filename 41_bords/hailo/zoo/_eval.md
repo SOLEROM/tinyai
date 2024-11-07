@@ -4,7 +4,7 @@
 
 ```
 
-> hailomz eval yolox_tiny --date-count 100
+> hailomz eval yolox_tiny --data-count 100
 
 
 
