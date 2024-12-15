@@ -14,6 +14,10 @@
 * for custom Model use the Dataflow Compiler for optimization and conversion 
 * build realtime applications using HailoRT.
 
+* sdk examples /local/workspace/hailort_examples
+* appsCodeExample https://github.com/hailo-ai/Hailo-Application-Code-Examples
+
+
 ## topics
 
 ### hw
